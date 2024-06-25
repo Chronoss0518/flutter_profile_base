@@ -7,7 +7,7 @@ import 'Component/profile_panel.dart';
 import 'Component/text_block.dart';
 import 'Component/use_table.dart';
 
-const String NAME = "chronoss";
+const String NAME = "Chronoss";
 const String CAREER = "IT Engineer";
 const String CREATER_TYPE = "Game Creater";
 
