@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:ch_flutter_library/widget/components/image_drawer.dart';
 import 'package:ch_flutter_library/widget/components/image_some_drawer.dart';
 import 'package:ch_flutter_library/widget/scene_manager.dart';
 import 'Component/profile_panel.dart';
@@ -44,11 +43,13 @@ class StartScene extends BaseScene {
   
   @override
   void init({SaveData? sendData}) {
+    /*
     setAppBar(AppBar(
       backgroundColor: Theme.of(context!).colorScheme.inversePrimary,
       title: const Center(child: Text("Profile")),
     ));
-    
+    */
+
     repaint(() {});
     
   }
@@ -87,7 +88,7 @@ class StartScene extends BaseScene {
     double height = size.height / 10; 
     return Container(
       color: Colors.black,
-      padding: EdgeInsets.fromLTRB(width, height, width, height),
+      //padding: EdgeInsets.fromLTRB(width, height, width, height),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -113,7 +114,7 @@ class StartScene extends BaseScene {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20.0),
+                    margin: EdgeInsets.all(10.0),
                     child: const ProfilePanelList(
                       [
                         ProfilePanel("Name", NAME,textColor: Colors.white),
@@ -123,7 +124,7 @@ class StartScene extends BaseScene {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.all(20.0),
+                    margin: EdgeInsets.all(10.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,

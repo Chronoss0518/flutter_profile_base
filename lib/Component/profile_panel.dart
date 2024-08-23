@@ -4,8 +4,8 @@ import 'package:flutter/widgets.dart';
 import 'text_block.dart';
 
 
-const double FONT_SIZE = 40;
-const double PARAMETER_NAME_FONT_SIZE = 20;
+const double FONT_SIZE = 40.0;
+const double PARAMETER_NAME_FONT_SIZE = 20.0;
 const double PARAMETER_VALUE_MARGIN_SIZE = 20.0;
 const Color TEXT_COLOR =Colors.white;
 
