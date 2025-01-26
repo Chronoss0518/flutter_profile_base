@@ -1,3 +1,5 @@
-# profile_project
+# 自分の名刺用画像を作成するProject
 
-A new Flutter project.
+FlutterではChromeなどのWebPageで表示することができる。
+
+これを利用してフロントの説明部分を作成する
