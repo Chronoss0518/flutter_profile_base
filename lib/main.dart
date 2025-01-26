@@ -6,16 +6,16 @@ import 'Component/profile_panel.dart';
 import 'Component/text_block.dart';
 import 'Component/use_table.dart';
 
-const String NAME = "Chronoss";
-const String CAREER = "IT Engineer";
-const String CREATER_TYPE = "Game Creater";
+const NAME = "Chronoss";
+const CAREER = "IT Engineer";
+const CREATER_TYPE = "Game Creater";
 
-const String TWITTER_USER_URL = "@__ChWorld__";
-const String BLUESKY_USER_URL = "@chworld.bsky.social";
-const String FREEGAME_MUGEN_USER_URL = "https://freegame-mugen.jp/cms/mt-cp.cgi?__mode=view&blog_id=1&id=9366";
-const String FREEM_USER_URL = "https://www.freem.ne.jp/brand/14403";
+const TWITTER_USER_URL = "@__ChWorld__";
+const BLUESKY_USER_URL = "@chworld.bsky.social";
+const FREEGAME_MUGEN_USER_URL = "https://freegame-mugen.jp/cms/mt-cp.cgi?__mode=view&blog_id=1&id=9366";
+const FREEM_USER_URL = "https://www.freem.ne.jp/brand/14403";
 
-const double URL_FONT_SIZE = 30.0;
+const URL_FONT_SIZE = 30.0;
 
 void main() {
   runApp(const MyApp());
